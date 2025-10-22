@@ -52,6 +52,7 @@ def compare_files():
         mer = output.mer
         wil = output.wil
         wip = output.wip
+        #This prints the output to the terminal if you want instant gratification. Feel free to comment those out if you don't care.
         print(wer)
         print(mer)
         print(wil)
@@ -78,3 +79,4 @@ def compare_files():
 
 compare_files()
 #Yay, it did a thing!
+
