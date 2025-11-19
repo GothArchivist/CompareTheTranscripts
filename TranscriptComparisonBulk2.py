@@ -74,9 +74,10 @@ def compare_files():
         df = pd.DataFrame(analysis)
         df_list.append(df)
         result = pd.concat(df_list)
-        result.to_csv('C:/Users/ct524/Documents/Transcripts/ComparisonTesting/generated/sonix_tested_2025-10-21_4.csv', encoding="utf-8")
+        result.to_csv('/path/to/file', encoding="utf-8")
         print(control,'Done!')
 
 compare_files()
 #Yay, it did a thing!
+
 
